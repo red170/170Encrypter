@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <script src="main.js"></script>
+
+    <title>170 Encrypter</title>
+
+</head>
+
+<body>
+
+    <div class="contenedorPrincipal">
+        
+        <div class="main">
+
+            <h1>170 Encrypter</h1>
+
+            <div class="contendorSecundario">
+
+                <div class="contenedorEspanol">
+
+                    <textarea placeholder="Ingrese su Texto..." id="input"></textarea>
+                    
+                    <input type="button" value="Limpiar" class="inputButton" onclick="limpiarTexto()">
+                    <input type="button" value="Pegar" class="inputButton" onclick="pegar()">
+                </div>
+    
+                <div class="contenedorEncriptado">
+
+                    <textarea readonly id="output"></textarea>
+                    <input type="button" value="Copiar" class="inputButton" onclick="copiar()">
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="contenedorBotones">
+
+            <input type="button" value="Codificar" class="inputButton" onclick="codificar()">
+
+            <input type="button" value="Descodificar" class="inputButton" onclick="descodificar()">
+            
+            
+        </div>
+        
+    </div>
+
+    <div class="nombre">
+
+        <p>Ernesto Portillo / RED170</p>
+
+    </div>
+    
+</body>
+
+</html>
+
