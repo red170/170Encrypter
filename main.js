@@ -1,3 +1,10 @@
+window.onload = function() {
+    const modalYaMostrado = localStorage.getItem('modalMostrado');
+    if (!modalYaMostrado) {
+        document.getElementById('abrirModal').click();
+        localStorage.setItem('modalMostrado', 'true');
+    }
+};
 function codificar() {
     const inputElement = document.getElementById('input');
     const outputElement = document.getElementById('output');
@@ -31,6 +38,11 @@ function descodificar() {
 
 function limpiarTexto() {
     const textarea = document.getElementById('input');
+    textarea.value = ''; 
+}
+
+function limpiarTexto2() {
+    const textarea = document.getElementById('output');
     textarea.value = ''; 
 }
 
