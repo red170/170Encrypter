@@ -11,8 +11,7 @@ body{
 
 .contenedorPrincipal{
     
- width: 95vw;
- height: 95vh;
+ padding: 0 10px 0 10px;
 
  margin: 0 auto;
     
@@ -56,6 +55,8 @@ h1{
     
 }
 
+
+
 .contenedorEncriptado{
     
     width: 45%;
@@ -64,6 +65,8 @@ h1{
     padding: 10px;
 
 }
+
+
 
 textarea{
     font-family: "Josefin Sans", sans-serif;
@@ -120,15 +123,33 @@ textarea::-webkit-scrollbar-thumb {
     box-shadow: 5px 5px 30px aliceblue;
 }
 
+.contenedorEspanol > .inputButton{
+
+    font-size: 1.5em;
+    margin-top: 30px;
+
+}
+
+.contenedorEncriptado > .inputButton{
+
+    font-size: 1.5em;
+    margin-top: 30px;
+
+}
+
+
 .inputButton:hover{
     color: gray;
     background-color: aliceblue;
     transition: 0.5s;
 }
 
+
+
 .nombre {
 
     text-align: right;
+    margin-top: 10px;
     margin-right: 15px;
 }
 
@@ -155,9 +176,7 @@ textarea::-webkit-scrollbar-thumb {
         font-size: 1em;
     }
 
-    .contenedorBotones{
-        text-align: center;
-    }
+    
 
     .inputButton{
         font-size: 1.5em;
@@ -169,6 +188,20 @@ textarea::-webkit-scrollbar-thumb {
     .inputButton{
         font-size: 1em;
     }
+
+    .contenedorEspanol > .inputButton{
+
+        font-size: 1em;
+        margin-top: 30px;
+    
+    }
+    
+    .contenedorEncriptado > .inputButton{
+    
+        font-size: 1em;
+        margin-top: 30px;
+    
+    }
 }
 
 @media only screen and (max-width : 500px){
@@ -176,8 +209,24 @@ textarea::-webkit-scrollbar-thumb {
     .inputButton{
 
         margin-right: 10px;
-        font-size: 0.8;
+        font-size: 0.8em;
         padding: 18px;
+    }
+
+    .contenedorEspanol > .inputButton{
+
+        font-size: 0.8em;
+        margin-top: 30px;
+        padding: 18px;
+    
+    }
+    
+    .contenedorEncriptado > .inputButton{
+    
+        font-size: 0.8em;
+        margin-top: 30px;
+        padding: 18px;
+    
     }
 }
 
@@ -188,6 +237,22 @@ textarea::-webkit-scrollbar-thumb {
         margin-right: 7px;
         font-size: 0.7;
         padding: 15px;
+    }
+
+    .contenedorEspanol > .inputButton{
+
+        font-size: 0.7em;
+        margin-top: 30px;
+        padding: 18px;
+    
+    }
+    
+    .contenedorEncriptado > .inputButton{
+    
+        font-size: 0.7em;
+        margin-top: 30px;
+        padding: 18px;
+    
     }
 
     textarea{
